@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký sinh viên</title>
+</head>
+<body>
+    <h2>Form đăng ký</h2>
+    <form action="#" method="post">
+        <label for="username">Tên đăng nhập:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="age">Tuổi:</label>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nữ</label>
+        <input type="radio" id="" name="gender" value="">
+        <label for="Khác">Khác</label><br><br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" id="sports" name="hobby" value="sports">
+        <label for="sports">Thể thao</label>
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music">Âm nhạc</label>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Đọc sách</label><br><br>
+
+        <label for="dob">Ngày sinh:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="about">Giới thiệu bản thân:</label><br>
+        <textarea id="about" name="about" rows="4" cols="50" placeholder="Viết đôi chút về bạn"></textarea><br><br>
+
+        <label for="file">Tải lên tệp:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <button type="submit">Gửi</button>
+        <button type="reset">Làm mới</button>
+    </form>
+</body>
+</html>
